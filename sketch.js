@@ -156,12 +156,12 @@ function draw()
   }
   if ((keyDown("RIGHT_ARROW")) && (gamestate === PLAY))
   {
-    car.x += 5;
+    car.x += 8;
   }
 
   if ((keyDown("LEFT_ARROW")) && (gamestate === PLAY))
   {
-    car.x -= 5;
+    car.x -= 8;
   }
 
   if (road.y >= 300)
